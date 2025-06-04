@@ -121,8 +121,8 @@ libf9omstw: 台灣環境的委託管理系統.
       * ReportRecover(OmsRxSNO fromSNO, RxRecover&& consumer);
       * 可在收到回補結束訊息時訂閱 ReportSubject.
     * 增加訂閱、取消訂閱
-      * ReportSubject_.Subscribe()、ReportSubject_.Unubscribe()
-      * core.ReportSubject().Subscribe()、core.ReportSubject().Unubscribe()
+      * ReportSubject_.Subscribe()、ReportSubject_.Unsubscribe()
+      * core.ReportSubject().Subscribe()、core.ReportSubject().Unsubscribe()
 * RxSNO
   * 每個 OMS 自行獨立編號(各編各的號, 也就是OmsA.RxSNO=1, 與OmsB.RxSNO=1, 可能是不同的 OmsRxItem).
   * 從 1 開始, 依序編號.
